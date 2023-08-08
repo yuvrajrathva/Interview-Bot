@@ -22,18 +22,18 @@ def chat():
     while True:
         openai.api_key = os.environ.get('OPENAI_KEY')
         if start_chat:
-            print("Hey welcome in the interview for ", company_name, " . Let's start your interview with your Introduction. So Introduce yourself.")
+            print("Hey welcome in the interview for", company_name, ". Let's start your interview with your Introduction. So, Introduce yourself.")
             start_chat = False
             print("Type 'quit' or 'q' to end interview.")
-        else:
-            print("Any Other Questions?")
+        # else:
+        #     print("Any Other Questions?")
         Answer = input("> ")
         if Answer == "quit" or Answer == "q":
             break
 
         # Exit the loop if the user presses enter without typing anything
         if not Answer:
-            print("You don't know the answer? That's okay. Let's move on to the next question.")
+            print("You don't know the answer? That's strange, okey. Let's move on to the next question.")
             # break
 
         response = openai.Embedding.create(
@@ -42,7 +42,7 @@ def chat():
         )
 
         try:
-            question_embedding = response['data'][0]["embedding"]
+            answer_embedding = response['data'][0]["embedding"] # Candidate Answer is embedded here
         except Exception as e:
             print(e.message)
             continue
@@ -56,16 +56,16 @@ def chat():
             reader = csv.DictReader(f)
             for row in reader:
                 # Extract the embedding from the column and parse it back into a list
-                text_embedding = json.loads(row['embedding'])
+                data_embedding = json.loads(row['embedding'])
 
                 # Add the similarity score to the array
-                similarity_array.append(calculate_similarity(question_embedding, text_embedding))
+                similarity_array.append(calculate_similarity(answer_embedding, data_embedding))
 
         # Return the index of the highest similarity score
         index_of_max = similarity_array.index(max(similarity_array))
 
         # Used to store the original text
-        original_text = ""
+        relavent_topic = ""
 
         # Loop through the CSV and find the text which matches the highest
         # similarity score
@@ -73,27 +73,20 @@ def chat():
             reader = csv.DictReader(f)
             for rowno, row in enumerate(reader):
                 if rowno == index_of_max:
-                    original_text = row['text']
+                    relavent_topic = row['text']
 
         system_prompt = f"""
-                        You are an AI interviewr. You are from #{company_name}. You will ask questions to a candidate and that candidate will answer.
+                        You are an AI interviewer. You are from #{company_name}. You will ask questions to a candidate and that candidate will answer.
 
                         You have the candidate's resume and the associated job description, conduct an interview as if you were a human recruiter seeking to determine the candidate's suitability for the position. Assess their experiences, skills, and qualifications in relation to the job requirements. Engage in a back-and-forth dialogue, asking open-ended and follow-up questions to dig deeper into relevant areas. Keep the conversation respectful and professional. Ensure that you validate the information provided in the resume and gain clarity on any ambiguities or gaps. Make the experience as authentic and comprehensive as a real-life interview.
 
-                        You will be provided resume information under the
-                        [Resume] section and job description will under the [Job] section. The candidate answer will be provided under the
-                        [Answer] section. You will ask follow-up question to the candidates answer based on the
-                        resume, job description.
+                        You will be provided the point or topic related to resume, job description and previous answwer given by candidate will under the [Relavent_topic] section using that you have to ask Question. The candidate answer will be provided under the [Answer] section. You will ask follow-up question to the candidates answer based on the resume and job description.
                         Your question will be to the point should in relavent to the resume, job description and prev question's answer and not in long paragraphs.
-
-                        If the users question is not answered by the article you will respond with
-                        'I'm sorry I don't know.
-                        '
                         """
 
         question_prompt = f"""
-                            [Article]
-                            {original_text}
+                            [Question]
+                            {relavent_topic}
                             
                             [Answer]
                             {Answer}
