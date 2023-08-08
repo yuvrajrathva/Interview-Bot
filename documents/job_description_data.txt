@@ -1,0 +1,30 @@
+Job description:
+We are seeking an eager, talented, and enthusiastic web developer to join our organization as an Intern. A Front-End Web Developer who is motivated to combine the art of design with the art of programming. Responsibilities will include translation of the UI/UX design wireframes to actual code that will produce visual elements.
+You will be working alongside another developer in creating, maintaining, and updating our websites. In order for you to succeed in this role, you will need to be proficient in JavaScript, HTML, CSS, and have solid knowledge and experience in web development.
+
+###
+
+Responsibilities:
+Good understanding of front-end development (essentially WordPress)
+Work in close partnerships with other Web Content Developer and brand web design to create incredible digital experiences
+Optimize and organize existing front-end code
+Help in the creation of custom microsites with our brand partners
+Duties are performed in a team-based working environment, under limited supervision
+Creates and manages work task plans for design and construction activities
+Back up files from websites to local directories for recovery
+Updating content so that it is consistent with the content style guide
+
+###
+
+Skills Required:
+html5, css3, JavaScript, PHP, WordPress, figma, user interface design, user experience, responsive web design, blogger, graphic design, adobe photoshop,
+
+###
+
+Other Requirements:
+Must have the ability to troubleshoot, have strong problem-solving skills and be able to work well within a team
+Ember and Backbone front-end JavaScript frameworks
+Experience in JavaScript/html5/CSS3 development is a must
+Understanding of best practices in User Interface design
+Work well in a team and with a range of marketing, creative and technical people
+Bachelor’s degree in IT, CS, or related field (Preferred)

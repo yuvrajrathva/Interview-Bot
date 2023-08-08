@@ -1,0 +1,108 @@
+Yuvraj Rathva
+Pre-Final Year | IIT JODHPUR
+
+EDUCATION
+B.Tech in Computer Science and
+Engineering
+May 2025 | Jodhpur, India
+CGPA: 6.83/10 till 4th sem
+
+JNV BHARUCH
+Class 12 | CBSE
+May 2021 | Bharuch, Gujarat
+Percentage: 93.8/100
+
+SKILLS
+DEVELOPMENT
+React JS • Django* • JavaScript • Firebase
+HTML • CSS • Bootstrap
+Git • GitHub
+
+DEVOPS
+Docker • CI/CD
+
+PROGRAMMING LANGUAGES
+C++ • Python
+
+BLOCKCHAIN DEVELOPMENT
+Solidity*
+
+DESIGNING
+Figma*
+
+COURSEWORK
+UNDERGRADUATE
+Data Structure and Algorithm
+Software Engineering
+Introduction to Computer Science
+Maths for Computing*
+
+EXPERIENCE
+IIT JODHPUR
+YTJOBS INDIA | Freelancing 
+Feb 2023 – Mar 2023 | Remote | ReactJs, Django and CSS.
+• Sole Front-End Developer for a startup, architected and delivered a complete
+website from scratch within a stringent 15-day deadline.
+• Used React Hooks, proficiently leveraging API data fetching techniques to
+curate a user-centric platform enhancing the user experience.
+• Crafted a visually compelling website interface utilizing pure CSS, ensuring an intuitive user experience while maintaining aesthetic excellence.
+
+
+PROMETEO | Techno Festival of IIT Jodhpur 
+Nov 2022 – Jan 2023 | IIT Jodhpur | ReactJs, JavaScript , and CSS.
+• Spearheaded the development of the official website for PROMETEO’23, the
+largest techno festival in N-W India, after a competitive selection process.
+• Craft a responsive, and progressive application, Full automation by integrating various APIs to fetch data, which dynamically rendered content.
+• Website’s performance analytics data: a robust 5.37k clicks, a whopping 29.6k
+impressions, an above-average CTR of 18.1%, and an impressive average position of 13.2 in search results.
+
+
+PROJECTS
+SKILLWELL | ReactJs Project
+Feb 2023 – Apr 2023 | ReactJs, Django , and CSS.
+• Leveraged the power of React to amplify the portal’s user interface and
+interactivity, featuring dynamic rendering, seamless navigation, and real-time
+updates for optimal user engagement.
+• Effectively connecting clients and skilled individuals on campus, leading to
+successful project outcomes, professional development, and financial
+opportunities for college students.
+
+
+UNIFIED FEST BACKEND | Django Project 
+Apr 2023 – July 2023 | Django, Postgresql, and Python.
+• Comprehensive collegiate festival template using Django framework.
+• Implemented the features account creation, profile management, Google
+signup, event registration for individuals and teams, sponsor management,
+team details, event management, and integration with a PostgreSQL.
+• Ensured clean and modular code structure, making UFB a versatile and easily
+customizable template for various needs.
+
+TOKEN SYSTEM | Solidity Project 
+Jan 2023 – Jan 2023 | Solidity
+• Successfully developed a Solidity-based digital currency within the intense
+24-hour timeline of a hackathon, enabling students to leverage a token system
+for intra-campus fund exchanges.
+• Leveraged Solidity features, token issuance, mapping,storage, modifiers and
+event handling, to create a robust and secure digital currency system.
+Career Objectives
+Learn & build something using OpenAI
+Learn & build project in Golang
+Positions of Responsibility
+Learn DevOps technology
+DevlUp Labs | Coordinator | 2023 – current
+Contribute to more interesting
+Mentored & Managed open source projects of DevlUp Labs.
+open-source projects
+
+Interests
+Software Development • Handball •
+Cricket • Chess • Music
+
+PROMETEO | Assistant Head | 2022 – 23
+Worked as web developer for largest techno festival in NW India.
+Varchas | Assistant Head | 2022
+Encouraging participation in Varchas festival through outreach.
+
+* mark is to indicate working proficiency in specified technology or subject
+
+
